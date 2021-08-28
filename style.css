@@ -243,7 +243,7 @@
       #da22ff
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F12711 0%,  #F5AF19 63%);
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -295,7 +295,7 @@
   .main__content h1 {
     font-size: 2rem;
     background-color: #F12711;
-    background-image: linear-gradient(to top, #F12711 0%,  #F5AF19 63%););
+    background-image: linear-gradient(to top, #F12711 0%,  #F5AF19 63%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -306,7 +306,7 @@
   }
 
   .content__wrapper {
-  color:afterbackground-image: linear-gradient(to right top, #f5af19, #ff9259, 
+  color:linear-gradient(to right top, #f5af19, #ff9259, 
   #ff8394, 
   #ff89c6, 
   #cf98e5, 
@@ -347,7 +347,7 @@
   
   .main__btn {
     font-size: 1.8rem;
-    background: ff1f05;
+    background: #ff1f05;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #1C55BB);
     background: linear-gradient(to right, #fcb045, #fd1d1d,#1C55BB);
     padding: 20px 60px;
@@ -374,7 +374,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #1C55BB);
+    background: #1C55BB;
     transition: all 0.35s;
     border-radius: 4px;
   }
@@ -552,7 +552,6 @@
     #ff89c6 29%, 
     #d76dca 67%, 
     #f12711 100%);
-    );
   }
 
   .PasstheBannockBowl__card h2 {
@@ -758,6 +757,7 @@
     background-color: #F5AF19;
   }
   
-  tr:hover td, tr:hover th {
+  td, tr:hover th {
     background:#F12711;
+  }
   
