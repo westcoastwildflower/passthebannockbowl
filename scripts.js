@@ -62,7 +62,7 @@ navLogo.addEventListener('click', hideMobileMenu);
     quotes[2] = "It’s a good day to be indigenous.";
     quotes[3] = "Arlene was magic. She knew how to feed a hundred lndians...with only 50 pieces of fry bread.";
     quotes[4] = "This ain’t Dances with Salmon, you know";
-    quotes[5] ="Glad to see you too, my son. My heart soars like a hawk."
+    quotes[5] ="Glad to see you too, my son. My heart soars like a hawk.";
     var rand = Math.floor(Math.random()*quotes.length);
     document.write(quotes[rand]);
   }
